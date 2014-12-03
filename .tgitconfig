@@ -1,0 +1,6 @@
+[bugtraq]
+	url = https://github.com/TomeSq119/hello-play-java/issues/%BUGID%
+	message = Issue : %BUGID%
+	label = Issue-Nr
+	warnifnoissue = true
+	logregex = "[Ii]ssues?:?(\\s*(,|and)?\\s*#\\d+)+\n(\\d+)"
